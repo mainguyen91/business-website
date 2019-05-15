@@ -11,7 +11,7 @@ body {
   .topnav a {
     float: left;
     display: block;
-    color: #0B3C5D;
+    color: #235789;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,13 +19,13 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #D9B310;
+    background-color: #FFCB05;
     color: #0B3C5D;
   }
   
   .active {
     background-color: #f2f2f2;
-    color: #D9B310;
+    color: #FFCB05;
   }
   
   .topnav .icon {
@@ -107,8 +107,8 @@ body {
     text-transform: uppercase;
     font-size: 2em;
     text-align: center;
-    color: #0B3C5D;
-    text-shadow: 3px 2px #D9B310;
+    color: #235789;
+    text-shadow: 3px 2px #FFCB05;
     margin: 0px;
 }
 .pretext {
