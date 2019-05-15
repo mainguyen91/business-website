@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vietnamese Landscapes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href='../styles/style.css'>
+    <script type='text/javascript' src='../js/script.js'>
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="active">HOME</a>
+            <a href="team.html">MEET THE TEAM</a>
+            <a href="landscapes.html">LANDSCAPES</a>
+            <a href="demo.html">GAME DEMO</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="background">
+            <h1 class="h1"><br>VIETNAMESE LANDSCAPES</h1>
+            <p class="pretext">Here is a gallery of images from the game: beautiful landscapes from different regions
+                throughout Vietnam. Please click on the image to see fullsize and caption.</p>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="./images/landscapes/ag1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="./images/landscapes/ag2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="./images/landscapes/hg1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="./images/landscapes/hg2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="./images/landscapes/hn1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="./images/landscapes/hn2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="./images/landscapes/sg1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="./images/landscapes/sg2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="./images/landscapes/vt1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="./images/landscapes/vt2.png" style="width:100%">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/ag1.png" style="width:100%"
+                            onclick="currentSlide(1)"
+                            alt="Palm trees that can be found in various places in An Giang province">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/ag2.png" style="width:100%"
+                            onclick="currentSlide(2)"
+                            alt="Ferry is a popular mode of transportation between the southwestern provinces">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/hg1.png" style="width:100%"
+                            onclick="currentSlide(3)" alt="Sinuous road in mountainous areas">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/hg2.png" style="width:100%"
+                            onclick="currentSlide(4)" alt="Terraced rice fields in Ha Giang">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/hn1.png" style="width:100%"
+                            onclick="currentSlide(5)" alt="Skyscrappers in Ha Noi">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/hn2.png" style="width:100%"
+                            onclick="currentSlide(6)" alt="Crossroad in Ha Noi old town">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/sg1.jpg" style="width:100%"
+                            onclick="currentSlide(7)" alt="Skyscrappers in Ho Chi Minh City (Sai Gon)">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/sg2.jpg" style="width:100%"
+                            onclick="currentSlide(8)" alt="Slum area in Ho Chi Minh City (Sai Gon)">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/vt1.png" style="width:100%"
+                            onclick="currentSlide(9)" alt="Hai Van Temple in Vung Tau">
+                    </div>
+                    <div class="column">
+                        <img class="img cursor" src="./images/landscapes/vt2.png" style="width:100%"
+                            onclick="currentSlide(10)" alt="Kites festival in Vung Tau">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
