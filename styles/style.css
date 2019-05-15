@@ -97,11 +97,14 @@ body {
     }
 }
 
+
 /* Style for introduction text */
 .intro1,
-.intro2 {
+.intro2,
+.text {
     text-align: justify;
     margin: 20px;
+    color: #235789;
 }
 
 /* Style for background of all pages */
@@ -253,4 +256,11 @@ body {
 
 h3 {
     color: #FFCB05;
+}
+
+.sqr {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
