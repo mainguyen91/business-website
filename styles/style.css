@@ -67,12 +67,11 @@ body {
 }
 
 .logo {
-    background: url(../images/shero.png);
+    background: url(../images/bg.png);
     display: none;
 }
 @media screen and (max-width: 600px) {
-.logo{
-    
+.logo {
     background-size: cover;
     max-width: 100%;
     min-height: 100vh;
@@ -94,3 +93,112 @@ body {
     text-align: justify;
     margin: 20px;
 }
+
+/* Style for background of all pages */
+.background {
+    background: url(../images/bg.png);
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+.h1 {
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    color: #0B3C5D;
+    text-shadow: 3px 2px #D9B310;
+    margin: 0px;
+}
+.pretext {
+    text-align: center;
+    color: #0B3C5D;
+}
+
+/* For slideshow */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+   .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #1D2731;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .img {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .img:hover {
+    opacity: 1;
+  }
