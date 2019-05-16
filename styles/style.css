@@ -11,6 +11,7 @@ body {
 .topnav a {
     float: left;
     display: block;
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     text-align: center;
     padding: 14px 16px;
@@ -20,6 +21,7 @@ body {
 }
 
 .topnav a:hover {
+    font-family: 'Cabin', Sans-Serif;
     background-color: #FFCB05;
     color: #0B3C5D;
     font-family: 'Cabin', Sans-Serif;
@@ -120,6 +122,7 @@ body {
     font-size: 3em;
     font-family: 'Roboto Condensed', Sans-Serif;
     text-align: center;
+    font-family: 'Roboto Condensed', Sans-Serif;
     color: #235789;
     text-shadow: 3px 2px #FFCB05;
     margin: 0px;
@@ -131,7 +134,6 @@ body {
     color: #235789;
     padding: 0 20px;
 }
-
 
 * {
     box-sizing: border-box;
@@ -177,6 +179,7 @@ body {
 
 .numbertext {
     color: #f2f2f2;
+    font-family: 'Cabin', Sans-Serif;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -185,6 +188,7 @@ body {
 
 .caption-container {
     text-align: center;
+    font-family: 'Cabin', Sans-Serif;
     background-color: #1D2731;
     padding: 2px 16px;
     color: white;
@@ -213,7 +217,6 @@ body {
 .person {
     display: flex;
     flex-flow: row wrap;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -242,11 +245,13 @@ body {
 }
 
 .bio {
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     font-family: 'Cabin', Sans-Serif;
 }
 
 h3 {
+    font-family: 'Cabin', Sans-Serif;
     color: #FFCB05;
     font-family: 'Cabin', Sans-Serif;
 }
