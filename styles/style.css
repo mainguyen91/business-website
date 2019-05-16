@@ -22,6 +22,7 @@ body {
 .topnav a:hover {
     background-color: #FFCB05;
     color: #0B3C5D;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 .active {
@@ -62,8 +63,6 @@ body {
     }
 }
 
-
-/* Style for banner */
 .hero {
     background: url(../images/hero.png);
     background-repeat: no-repeat;
@@ -98,8 +97,6 @@ body {
     }
 }
 
-
-/* Style for introduction text */
 .intro1,
 .intro2,
 .text {
@@ -109,7 +106,6 @@ body {
     color: #235789;
 }
 
-/* Style for background of all pages */
 .background {
     background: url(../images/bg.png);
     background-size: cover;
@@ -121,7 +117,8 @@ body {
 .h1 {
     opacity: 1;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Roboto Condensed', Sans-Serif;
     text-align: center;
     color: #235789;
     text-shadow: 3px 2px #FFCB05;
@@ -130,31 +127,28 @@ body {
 
 .pretext {
     text-align: center;
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     padding: 0 20px;
 }
 
-/* For slideshow */
+
 * {
     box-sizing: border-box;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -171,13 +165,11 @@ body {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
@@ -191,7 +183,6 @@ body {
     top: 0;
 }
 
-/* Container for image text */
 .caption-container {
     text-align: center;
     background-color: #1D2731;
@@ -205,13 +196,11 @@ body {
     clear: both;
 }
 
-/* Six columns side by side */
 .column {
     float: left;
     width: 20%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .img {
     opacity: 0.6;
 }
@@ -254,10 +243,12 @@ body {
 
 .bio {
     color: #235789;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 h3 {
     color: #FFCB05;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 .sqr {
