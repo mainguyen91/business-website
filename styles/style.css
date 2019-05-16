@@ -11,6 +11,7 @@ body {
 .topnav a {
     float: left;
     display: block;
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     text-align: center;
     padding: 14px 16px;
@@ -19,11 +20,13 @@ body {
 }
 
 .topnav a:hover {
+    font-family: 'Cabin', Sans-Serif;
     background-color: #FFCB05;
     color: #0B3C5D;
 }
 
 .active {
+    font-family: 'Cabin', Sans-Serif;
     background-color: #f2f2f2;
     color: #FFCB05;
 }
@@ -61,8 +64,6 @@ body {
     }
 }
 
-
-/* Style for banner */
 .hero {
     background: url(../images/hero.png);
     background-repeat: no-repeat;
@@ -97,17 +98,15 @@ body {
     }
 }
 
-
-/* Style for introduction text */
 .intro1,
 .intro2,
 .text {
     text-align: justify;
-    margin: 20px;
+    margin: 10vh;
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
 }
 
-/* Style for background of all pages */
 .background {
     background: url(../images/bg.png);
     background-size: cover;
@@ -119,8 +118,9 @@ body {
 .h1 {
     opacity: 1;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
+    font-family: 'Roboto Condensed', Sans-Serif;
     color: #235789;
     text-shadow: 3px 2px #FFCB05;
     margin: 0px;
@@ -128,31 +128,27 @@ body {
 
 .pretext {
     text-align: center;
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     padding: 0 20px;
 }
 
-/* For slideshow */
 * {
     box-sizing: border-box;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -161,6 +157,7 @@ body {
     width: auto;
     padding: 16px;
     margin-top: -50px;
+    font-family: 'Cabin', Sans-Serif;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -169,13 +166,11 @@ body {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
@@ -183,15 +178,16 @@ body {
 
 .numbertext {
     color: #f2f2f2;
+    font-family: 'Cabin', Sans-Serif;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
 }
 
-/* Container for image text */
 .caption-container {
     text-align: center;
+    font-family: 'Cabin', Sans-Serif;
     background-color: #1D2731;
     padding: 2px 16px;
     color: white;
@@ -203,13 +199,11 @@ body {
     clear: both;
 }
 
-/* Six columns side by side */
 .column {
     float: left;
     width: 20%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .img {
     opacity: 0.6;
 }
@@ -222,7 +216,6 @@ body {
 .person {
     display: flex;
     flex-flow: row wrap;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -251,10 +244,12 @@ body {
 }
 
 .bio {
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
 }
 
 h3 {
+    font-family: 'Cabin', Sans-Serif;
     color: #FFCB05;
 }
 
