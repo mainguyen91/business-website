@@ -98,16 +98,19 @@ body {
 }
 
 .intro1,
-.intro2 {
+.intro2,
+.text {
     text-align: justify;
-    margin: 20px;
+    margin: 10vh;
+    font-family: 'Cabin', Sans-Serif;
+    color: #235789;
 }
 
 .background {
     background: url(../images/bg.png);
     background-size: cover;
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
 
 }
 
@@ -245,5 +248,12 @@ body {
 
 h3 {
     color: #FFCB05;
-    font-family: 'Roboto Condensed', Sans-Serif;
+    font-family: 'Cabin', Sans-Serif;
+}
+
+.sqr {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
