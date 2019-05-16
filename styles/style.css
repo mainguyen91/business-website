@@ -16,6 +16,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Cabin', Sans-Serif;
     font-size: 17px;
 }
 
@@ -23,6 +24,7 @@ body {
     font-family: 'Cabin', Sans-Serif;
     background-color: #FFCB05;
     color: #0B3C5D;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 .active {
@@ -111,7 +113,7 @@ body {
     background: url(../images/bg.png);
     background-size: cover;
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
 
 }
 
@@ -246,11 +248,13 @@ body {
 .bio {
     font-family: 'Cabin', Sans-Serif;
     color: #235789;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 h3 {
     font-family: 'Cabin', Sans-Serif;
     color: #FFCB05;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 .sqr {
