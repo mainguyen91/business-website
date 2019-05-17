@@ -5,11 +5,13 @@
 }
 
 .webgl-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .webgl-content .logo,
@@ -42,7 +44,6 @@
 
 .webgl-content .progress .full {
     background: url('progressFull.Light.png') no-repeat left / cover;
-    float: left;
     width: 0%;
     height: 100%;
     display: inline-block;
@@ -93,21 +94,6 @@
     float: right;
 }
 
-@media only screen and (min-width: 600px) {
-    .webgl-content {
-        margin-top: 10vh;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .webgl-content {
-        margin-top: 25vh;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .webgl-content {
-        margin-top: 50vh;
-    }
-
+.intro {
+    display: inline-block;
 }
