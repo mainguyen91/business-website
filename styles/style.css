@@ -83,7 +83,7 @@ body {
 
 .pretext {
     text-align: center;
-    font-family: 'Cabin', Sans-Serif;  
+    font-family: 'Cabin', Sans-Serif;
     color: #235789;
     padding: 0 20px;
 }
@@ -170,9 +170,24 @@ body {
 
 }
 
-.pic {
-    padding: 0 20px;
+.pic-container {
+    width: 300px;
     height: 300px;
+}
+
+.pic-container img {
+    width: 100%;
+    height: auto;
+}
+
+.map-container {
+    width: 120px;
+    height: 120px;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
 }
 
 .bio {
@@ -243,6 +258,8 @@ h3 {
 
     .person {
         flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
 
