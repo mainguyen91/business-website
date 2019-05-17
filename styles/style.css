@@ -183,6 +183,7 @@ body {
 .map-container {
     width: 120px;
     height: 120px;
+    padding: 0 20px;
 }
 
 .map-container img {
